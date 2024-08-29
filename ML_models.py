@@ -1,12 +1,6 @@
-import numpy as np
+
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.svm import SVR
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
-from statsmodels.tsa.arima.model import ARIMA
 from prophet import Prophet
 
 # Perform PCA on the transposed data to reduce dimensionality.
